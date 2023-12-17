@@ -1,0 +1,6 @@
+<input type="text" (input)="setMyNumber($event)"/>
+
+
+<h1 *ngFor="let n of arrNumeros">
+    <p *ngIf="myNumber > 5">{{n}}</p>
+</h1>
